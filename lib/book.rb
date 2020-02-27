@@ -11,7 +11,7 @@ class Book
   def author 
     @author 
   end 
-  def page_getter(page_getter)
+  def page_getter=(page_getter)
     @page_getter = page_getter
   end
   def page_getter
